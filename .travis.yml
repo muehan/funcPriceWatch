@@ -1,4 +1,4 @@
-language: generic
+language: csharp
 before_install:
   - curl -fsSL https://get.pulumi.com/ | sh
   - export PATH=$PATH:$HOME/.pulumi/bin
