@@ -1,7 +1,7 @@
 echo "Travis push job"
 
 # Download dependencies and build
-dotnet publish functions
+# dotnet publish functions
 
 # Update the stack
 case ${TRAVIS_BRANCH} in
