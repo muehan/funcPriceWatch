@@ -6,11 +6,9 @@ on:
 jobs:
   up:
     name: Windows
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 1
+      - uses: actions/checkout@v1
       - uses: docker://pulumi/actions
         with:
           args: up --yes
