@@ -2,6 +2,9 @@
     "IsEncrypted": false,
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "EmailSender": "andre.muehle@outlook.com",
+        "PriceUrl": "http://pricewatch.northeurope.cloudapp.azure.com/api/price/2020-10-22",
+        "ProductUrl": "http://pricewatch.northeurope.cloudapp.azure.com/api/productbydate/2020-10-25"
     }
 }
